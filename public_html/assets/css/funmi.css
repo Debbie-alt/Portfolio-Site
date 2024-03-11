@@ -11737,3 +11737,13 @@ pre .code {
 .textde{
   color:#292c2f;
 }
+#btnmode{position: fixed; /* Fixed positioning to make it float */
+  bottom: 20px; /* Adjust as needed to position the button vertically */
+  right: 20px; /* Adjust as needed to position the button horizontally */
+  color: #ffffff; /* Button text color */
+  background-color: transparent;
+   /* Padding around the button text */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s ease; 
+}
