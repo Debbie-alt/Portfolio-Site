@@ -30,14 +30,12 @@ $(document).ready(function(){
         } 
     });
 });
- 
+const texts = document.getElementById('project')
 const body = document.getElementById('home')
 const button = document.getElementById('btnmode')
-const texts = document.getElementsByClassName('text-light')
 function changeMode (){
-  body.classList.toggle('mode');
   texts.style.color =  "black"
-  
+  body.classList.toggle('mode');
 }
 
 
