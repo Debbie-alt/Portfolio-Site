@@ -11743,7 +11743,7 @@ pre .code {
 }
 #btnmode{position: fixed; /* Fixed positioning to make it float */
   bottom: 20px; /* Adjust as needed to position the button vertically */
-  right: 20px; /* Adjust as needed to position the button horizontally */
+  right: 15px; /* Adjust as needed to position the button horizontally */
   color: #ffffff; /* Button text color */
   background-color: transparent;
    /* Padding around the button text */
@@ -11763,4 +11763,7 @@ pre .code {
 }
 .brand-title{
   color: var(--blue);
+}
+.support{
+  display: flex;
 }
