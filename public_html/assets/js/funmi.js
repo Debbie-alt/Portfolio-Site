@@ -34,7 +34,7 @@ const texts = document.getElementById('project')
 const body = document.getElementById('home')
 const button = document.getElementById('btnmode')
 function changeMode (){
-  texts.style.color =  "black"
+  body.style.color =  "black"
   body.classList.toggle('mode');
 }
 

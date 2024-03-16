@@ -87,14 +87,11 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #e9f2fb;
   text-align: left;
   background-color:black;
 }
-.mode{
-  background-color: white;
 
-}
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -4499,6 +4496,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color:white;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4517,12 +4515,14 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  color:white;
 }
 
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+  color:white;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -4603,6 +4603,7 @@ input[type="button"].btn-block {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.8rem 1rem;
+  color: white;
 }
 
 .navbar > .container,
@@ -4651,11 +4652,13 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  color:white;
 }
 
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  color:white;
 }
 
 .navbar-nav .dropdown-menu {
@@ -11747,4 +11750,17 @@ pre .code {
   border: none; /* Remove button border */
   cursor: pointer; /* Cursor style */
   transition: background-color 0.3s ease; 
+}
+
+
+
+.mode{
+  background-color: white;
+  color: black;
+}
+#btnmode{
+  z-index: 4 !important;
+}
+.brand-title{
+  color: var(--blue);
 }
